@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:animateLayoutChanges="true"
@@ -97,7 +98,7 @@
             android:layout_marginTop="8dp"
             android:background="@drawable/black_selected_rectangle"
             app:layout_constraintEnd_toStartOf="@id/green_rectangle"
-            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintStart_toStartOf="@id/begin_margin"
             app:layout_constraintTop_toBottomOf="@id/color_title" />
 
